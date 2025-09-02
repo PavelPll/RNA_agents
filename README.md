@@ -14,7 +14,6 @@ Using LLM agents to Decode and Evolve RNA Molecules
 
 ### Dependencies
 * Large Language Models ([Claude Sonnet 4 (20250514) Anthropic.](https://www.anthropic.com)
-* Text-visual transformers (clip-ViT-B-32, EVA02-E-14-plus, ...)
 * RiboDiffusion model to get FASTA (RNA sequence) from PDB (3D structure) ([paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11211841/), [GitHub](https://github.com/ml4bio/RiboDiffusion))
 * DRfold2 model to get PDB (3D structure) from FASTA (RNA sequence) ([paper](https://www.biorxiv.org/content/10.1101/2025.03.05.641632v1), [GitHub](https://github.com/leeyang/DRfold2.git))
 * [DSSR](http://skmatic.x3dna.org/) to extract RNA properties from its 3D structure (PDB file) [paper](https://academic.oup.com/nar/article/48/13/e74/5842193?login=false)
@@ -29,11 +28,11 @@ Using LLM agents to Decode and Evolve RNA Molecules
 
 ### Installing
 
-I adapted the same conda environment for both RAG and RiboDiffusion. However, I installed DRfold2 in a Docker container running Ubuntu 22.04 because the ARENA package requires Linux for compilation (see RNA_RAG/Dockerfile). The Large Language Model (LLM) is installed locally, so no specific keys are needed. I use an NVIDIA GeForce RTX 4060 with 8 GB VRAM and 32 GB of RAM.
-* To install the RAG system for RNA queries, clone the repository::
+I adapted the same conda environment for both LLM agents and RiboDiffusion. However, I installed DRfold2 in a Docker container running Ubuntu 22.04 because the ARENA package requires Linux for compilation (see RNA_RAG/Dockerfile). The Large Language Model (LLM) is installed locally, so no specific keys are needed. I use an NVIDIA GeForce RTX 4060 with 8 GB VRAM and 32 GB of RAM.
+* Clone the repository::
 ```
-git clone https://github.com/PavelPll/RNA_RAG.git
-cd RNA_RAG
+git clone https://github.com/PavelPll/RNA_agents.git
+cd RNA_agents
 ```
 * Install DRfold2:
 ```
@@ -57,7 +56,7 @@ cd ..
 
 * Install RiboDiffusion:
 ```
-cd RNA_RAG
+cd RNA_agents
 git clone https://github.com/ml4bio/RiboDiffusion
 cd RiboDiffusion
 Model checkpoint can be downloaded from here. 
