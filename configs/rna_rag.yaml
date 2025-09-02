@@ -1,0 +1,3 @@
+ribodiffusion:
+  n_samples: 50 # Number of backfolded RNA sequences generated per run
+
