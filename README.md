@@ -90,7 +90,7 @@ pip install easy-entrez
      ```
      notebooks/RNA_toolAgent.ipynb
      ```
-    * Model input: FASTA file with initial RNA sequence (e.g. trnaGlycine_Asgard_group_archaeon from data/processed/rna_evolution_seed folder;
+    * Model input: FASTA file with initial RNA sequence (e.g. trnaGlycine_Asgard_group_archaeon.fasta from data/processed/rna_evolution_seed folder;
     * Model output: ancestral_sequence in FASTA format in data/processed/rna_evolution folder.
 ## License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
