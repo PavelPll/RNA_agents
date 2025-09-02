@@ -67,9 +67,11 @@ Download and put the checkpoint files in the RiboDiffusion/ckpts folder.
 ```
 * Set up a conda environment:
 ```
-conda create -n rna_rag2 python=3.11.11
+conda create -n rna_agents python=3.11.11
+conda activate rna_agents
 
-pip install -q torch==2.5.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install -q torch==2.5.1 torchvision --index-url https://download.pytorch.org/whl/cu121
+
 pip install transformers matplotlib PyMuPDF sentence-transformers langchain langchain-community sentencepiece protobuf accelerate open-clip-torch optimum
 conda install -c conda-forge faiss-gpu
 pip uninstall numpy -y
