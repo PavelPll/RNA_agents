@@ -86,37 +86,12 @@ pip install easy-entrez
 * Add RNA textbooks in PDF format to data/raw/books.
 
 ### Executing program
-
-* #### Query the RNA of interest using a prompt
+* #### An attempt to model RNA evolution using a large language model (LLM) tool agent
      ```
-     notebooks/RAG_deployment.ipynb
+     notebooks/RNA_toolAgent.ipynb
      ```
-     **Only two kinds of prompts are possible: general and evolutionary.** This is configured using the prompt_choice parameter in configs/rna_rag.yaml. The general prompt (prompt_choice = 0) is used to ask a question about a given RNA, while the evolutionary prompt (prompt_choice = 1) is used to generate a new RNA sequence. Both prompts can be visualized and modified, if needed, in lib/RAG_Biomistral/rag_templates.py. The corresponding context can be adjusted using other parameters in configs/rna_rag.yaml:
-    * Choose a model to generate text and image embeddings using text_visual_encoder_choice:
-         ```
-         2 for sentence-transformers/clip-ViT-B-32 (on gpu) the best!
-         3 for ViT-H-14 (on cpu because of long embedding) OK                  
-         4 for EVA02-E-14-plus (on cpu because of long embedding) OK                      
-         5 for hf-hub:imageomics/bioclip (on cpu because of long embedding) OK
-         ```
-    * Change text and image context configuration for prompt construction.:
-        ```
-        num_question_context_pages: 3 # context size in prompt
-        num_image_context_pages: 3 # context size in prompt per image
-        book_tokens_per_page: 200 # tokens per page of textbook (pdf)
-        chunk_overlap_ratio: 0.1  
-        ```
-    * Adjust LLM performance quality and processing speed by selecting the degree of quantization used during inference and the model type:
-        ```
-        inference_8_bit: True # False for 4 bit; True for 8 bit
-        llm_model_choice: 0 # 0 for Biomistral (recommended); 1 for medalpaca-7b (context is shorter)
-        ```
-* #### An attempt to model RNA evolution using a large language model (LLM)
-     ```
-     notebooks/RNA_evolution.ipynb
-     ```
-    * Model input: FASTA file with initial RNA sequence;
-    * Model output: new FASTA, PDB, and PNG files of the 3D structure for each RNA generated at every simulation step.
+    * Model input: FASTA file with initial RNA sequence (e.g. trnaGlycine_Asgard_group_archaeon from data/processed/rna_evolution_seed folder;
+    * Model output: ancestral_sequence in FASTA format in data/processed/rna_evolution folder.
 ## License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
