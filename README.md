@@ -34,9 +34,9 @@ I adapted the same conda environment for both LLM agents and RiboDiffusion. Howe
 git clone https://github.com/PavelPll/RNA_agents.git
 cd RNA_agents
 ```
-* Install DRfold2:
+* Install DRfold2 inside Docker container:
 ```
-cd RNA_RAG
+cd RNA_agents
 git clone https://github.com/leeyang/DRfold2.git drfold2
 git clone https://github.com/pylelab/Arena.git drfold2/Arena
 cd drfold2
