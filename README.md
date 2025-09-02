@@ -98,5 +98,5 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 
 > [!NOTE]
-> For more information see short [presentation](https://github.com/PavelPll/RNA_RAG/blob/main/docs/rna_rag.pdf)
+> For more information see short [presentation](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
 
