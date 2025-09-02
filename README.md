@@ -2,13 +2,11 @@
 Using LLM agents to Decode and Evolve RNA Molecules
 
 ## Description 
-* Context construction:
-    * from RNA 3D structure
-    * from RNA diffusion model
+* Context construction for RNA sequence:
+    * From reconstructed RNA 3D structure
+    * From RNA conditional diffusion model
 * Tool_calling_agent implementation
 * For more information click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
-
-
 
 ## Getting Started
 
