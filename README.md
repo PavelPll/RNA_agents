@@ -13,7 +13,7 @@ Using LLM agents to Decode and Evolve RNA Molecules
 ## Getting Started
 
 ### Dependencies
-* Large Language Models ([Biomistral](https://arxiv.org/abs/2402.10373), ...)
+* Large Language Models ([Claude Sonnet 4 (20250514) Anthropic.](https://www.anthropic.com)
 * Text-visual transformers (clip-ViT-B-32, EVA02-E-14-plus, ...)
 * RiboDiffusion model to get FASTA (RNA sequence) from PDB (3D structure) ([paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11211841/), [GitHub](https://github.com/ml4bio/RiboDiffusion))
 * DRfold2 model to get PDB (3D structure) from FASTA (RNA sequence) ([paper](https://www.biorxiv.org/content/10.1101/2025.03.05.641632v1), [GitHub](https://github.com/leeyang/DRfold2.git))
