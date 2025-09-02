@@ -71,21 +71,16 @@ conda create -n rna_agents python=3.11.11
 conda activate rna_agents
 
 pip install -q torch==2.5.1 torchvision --index-url https://download.pytorch.org/whl/cu121
-
-pip install transformers matplotlib PyMuPDF sentence-transformers langchain langchain-community sentencepiece protobuf accelerate open-clip-torch optimum
-conda install -c conda-forge faiss-gpu
-pip uninstall numpy -y
-pip install numpy==1.26.2
-pip install bitsandbytes
-pip install --no-deps xformers
-pip install biopython==1.80
-conda install -c conda-forge pymol-open-source
+pip install requests matplotlib
+pip install transformers sentence-transformers langchain langchain-community langchain_anthropic
 pip install torch_geometric==2.3.1 torch_scatter==2.1.1 torch_cluster==1.6.1
 pip install fair_esm==2.0.0 ml_collections==0.1.1
 conda install -c conda-forge dm-tree=0.1.7
-pip install rna-fm
-pip install matplotlib
-pip install adjustText
+pip install biopython==1.80
+pip install -U ddgs
+pip install wikipedia
+pip install easy-entrez
+# pip install rna-fm adjustText
 ```
 * Install ViennaRNA from [here](https://www.tbi.univie.ac.at/RNA/ViennaRNA/doc/html/install.html)
 * Add RNA textbooks in PDF format to data/raw/books.
