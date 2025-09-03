@@ -32,7 +32,7 @@ I adapted the same conda environment for both LLM agents and RiboDiffusion. Howe
 git clone https://github.com/PavelPll/RNA_agents.git
 cd RNA_agents
 ```
-* Install DRfold2 inside Docker container:
+* Install DRfold2 inside a Docker container:
 ```
 cd RNA_agents
 git clone https://github.com/leeyang/DRfold2.git drfold2
@@ -90,6 +90,8 @@ pip install easy-entrez
      ```
     * Model input: FASTA file with initial RNA sequence (e.g. trnaGlycine_Asgard_group_archaeon.fasta from data/processed/rna_evolution_seed folder;
     * Model output: ancestral_sequence in FASTA and PDB formats with detailed description of each evolution step (evolution_steps.txt) in data/processed/rna_evolution folder.
+* #### An attempt to model RNA evolution using a large language model (LLM) ReAct agent
+    * Is comming...
 ## License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
