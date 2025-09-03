@@ -26,7 +26,7 @@ Using LLM agents to Decode and Evolve RNA Molecules
 
 ### Installing
 
-I adapted the same conda environment for both LLM agents and RiboDiffusion. However, I installed DRfold2 in a Docker container running Ubuntu 22.04 because ARENA package requires Linux for compilation (see RNA_agents/Dockerfile). The Large Language Model (LLM) requires the key, please get it [here](https://www.anthropic.com). I use an NVIDIA GeForce RTX 4060 with 8 GB VRAM and 32 GB of RAM to run DRfold2 and Ribodiffusion models. A single simulation step takes about 5–10 minutes.
+I adapted the same conda environment for both LLM agents and RiboDiffusion model. However, I installed DRfold2 in a Docker container running Ubuntu 22.04 because ARENA package requires Linux for compilation (see RNA_agents/Dockerfile). The Large Language Model (LLM) requires the key, please get it [here](https://www.anthropic.com). I use an NVIDIA GeForce RTX 4060 with 8 GB VRAM and 32 GB of RAM to run DRfold2 and Ribodiffusion models. A single simulation step takes about 5–10 minutes.
 * Clone the repository::
 ```
 git clone https://github.com/PavelPll/RNA_agents.git
