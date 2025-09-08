@@ -5,7 +5,10 @@ LLM Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
 * Context construction for RNA sequence:
     * From reconstructed RNA 3D structure
     * From RNA conditional diffusion model
-* Tool_calling_agent implementation
+    * From PubMed abstracts
+    * From internet search
+* Tool-Calling Agent implementation
+* ReAct Agent implementation
 * For quick presentation click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
 
 ## Getting Started
