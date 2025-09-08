@@ -81,7 +81,7 @@ pip install biopython==1.80
 pip install -U ddgs
 pip install wikipedia
 pip install easy-entrez
-# pip install rna-fm adjustText
+pip install langgraph
 ```
 * Install ViennaRNA from [here](https://www.tbi.univie.ac.at/RNA/ViennaRNA/doc/html/install.html)
 
