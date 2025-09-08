@@ -6,7 +6,7 @@ LLM Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
     * From reconstructed RNA 3D structure
     * From RNA conditional diffusion model
     * From internet search
-    * From PubMed abstracts, followed by full-text paper search on the interne
+    * From PubMed abstracts, followed by full-text paper search on the internet
 * Tool-Calling Agent implementation
 * ReAct Agent implementation
 * For quick presentation click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
