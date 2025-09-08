@@ -89,8 +89,12 @@ pip install easy-entrez
      ```
     * Model input: FASTA file with initial RNA sequence (e.g. trnaGlycine_Asgard_group_archaeon.fasta from data/processed/rna_evolution_seed folder;
     * Model output: ancestral_sequence in FASTA and PDB formats with detailed description of each evolution step (evolution_steps.txt) in data/processed/rna_evolution folder.
-* #### An attempt to model RNA evolution using a large language model (LLM) ReAct agent
-    * Is coming...
+* #### LLM ReAct Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
+    * Comparison of two RNAs
+    * Generate two connected RNA hairpins without RNA template
+    * Generate two connected RNA hairpins from a given RNA template
+    * Modification of a specified region of an RNA molecule
+
 ## License
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
