@@ -1,0 +1,16 @@
+{
+    "length": 20,
+    "dot_bracket": [
+        "...................."
+    ],
+    "ssSegments": [
+        "AGAGAGAGAGAGAGAGAGAG"
+    ],
+    "stacks": [
+        "AGAGAGAGAGAGAGAGAGAG"
+    ],
+    "backfolded_sequence": "GCAUAGAGUGGGAUAUGACC",
+    "sequence": "AGAGAGAGAGAGAGAGAGAG",
+    "helices": {},
+    "stems": {}
+}

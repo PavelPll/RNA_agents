@@ -1,0 +1,98 @@
+{
+    "length": 74,
+    "base_pairs": 33,
+    "hydrogen_bonds": 123,
+    "dot_bracket": [
+        "(((((((..((((.......)))).(((((.......)))))....(((((.......))))))))))))...."
+    ],
+    "multiplets": [
+        "UAC",
+        "UGC",
+        "ACG",
+        "UGG"
+    ],
+    "splayUnits": [
+        "AU",
+        "UG",
+        "GUA",
+        "CC",
+        "AA",
+        "CA"
+    ],
+    "riboseZippers": [
+        "UAAG"
+    ],
+    "ssSegments": [
+        "ACCA"
+    ],
+    "junctions": [
+        "AUAGCUUAGAGCCGU"
+    ],
+    "hairpins": [
+        "UAGUGGUAG",
+        "CCUGCCUAG",
+        "GUUCAAAUC"
+    ],
+    "nonStack": [
+        "GGUCA"
+    ],
+    "stacks": [
+        "AC",
+        "UU",
+        "GC",
+        "CA",
+        "AC",
+        "GU",
+        "CUU",
+        "CCU",
+        "AGA",
+        "GUU",
+        "CAC",
+        "UGAG",
+        "CUAG",
+        "AGACAU"
+    ],
+    "num_coaxStacks": 2,
+    "backfolded_sequence": "GGUCCGAUGGUGUAGCGGUAGCACGCAUCCCUAGGGUGGAUGACGCCCGGGUUCGAAUCCCGGUCGGACCACCA",
+    "sequence": "GCACCGAUAGUCUAGUGGUAGGACUUAUCCCUGCCUAGGAUAGAGCCCGGGUUCAAAUCCCGGUCGGUGCACCA",
+    "helices": {
+        "helix_0": {
+            "base_pairs": 13,
+            "strand_1": "GCACCGACCGGGU",
+            "strand_2": "CGUGGCUGGCCCA",
+            "helix_form": "AAAAAAxAAAAx"
+        },
+        "helix_1": {
+            "base_pairs": 13,
+            "strand_1": "CAGGAUAGUCUAG",
+            "strand_2": "UCCCUAUCAGGUC",
+            "helix_form": "x.AAAAxAA.xx"
+        }
+    },
+    "stems": {
+        "helix_0": {
+            "base_pairs": 7,
+            "strand_1": "GCACCGA",
+            "strand_2": "CGUGGCU",
+            "helix_form": "AAAAAA"
+        },
+        "helix_1": {
+            "base_pairs": 4,
+            "strand_1": "GUCU",
+            "strand_2": "CAGG",
+            "helix_form": "AA."
+        },
+        "helix_2": {
+            "base_pairs": 5,
+            "strand_1": "UAUCC",
+            "strand_2": "AUAGG",
+            "helix_form": "AAAA"
+        },
+        "helix_3": {
+            "base_pairs": 5,
+            "strand_1": "CCGGG",
+            "strand_2": "GGCCC",
+            "helix_form": "AAAA"
+        }
+    }
+}

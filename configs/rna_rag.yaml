@@ -1,3 +1,8 @@
 ribodiffusion:
-  n_samples: 50 # Number of backfolded RNA sequences generated per run
+  n_samples: 30 # Number of backfolded RNA sequences generated per run
+input_output:
+  # Seed folder with different RNA sequences (FASTA) and 3D structures(PDB)
+  input_dir: "../data/processed/rna_evolution_seed/"
+  output_dir_ToolAgent: "../data/processed/rna_evolution/"
+  output_dir_ReActAgent: "../data/processed/RNA_reports/"
 
