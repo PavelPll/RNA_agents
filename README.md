@@ -86,7 +86,7 @@ pip install easy-entrez
 * Install ViennaRNA from [here](https://www.tbi.univie.ac.at/RNA/ViennaRNA/doc/html/install.html)
 
 ### Executing program
-* #### LLM ReAct Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
+* ####  Large Language Model (LLM) ReAct Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
     ```
    notebooks/RNA_reactAgent.ipynb
     ```
@@ -94,7 +94,7 @@ pip install easy-entrez
     * Generate two connected RNA hairpins without RNA template
     * Generate two connected RNA hairpins from a given RNA template
     * Modification of a specified region of an RNA molecule
-* #### An attempt to model RNA evolution using a large language model (LLM) tool agent
+* #### An attempt to model RNA evolution using (LLM) tool agent
      ```
      notebooks/RNA_toolAgent.ipynb
      ```
