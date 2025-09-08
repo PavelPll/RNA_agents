@@ -2,7 +2,7 @@
 LLM Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
 
 ## Description 
-* Context construction for RNA sequence:
+* Tool construction for RNA sequence:
     * From reconstructed RNA 3D structure
     * From RNA conditional diffusion model
     * From internet search
