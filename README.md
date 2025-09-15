@@ -1,5 +1,5 @@
 # RNA_agents
-LLM Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
+LLM Agent–Driven ncRNA Design via Intrinsic Features and Structure-Guided Feedback
 
 ## Description 
 * Construction of Tools for RNA sequence analysis:
