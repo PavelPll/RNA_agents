@@ -1,6 +1,9 @@
 # RNA_agents
 LLM Agent–Driven ncRNA Design via Intrinsic Features and Structure-Guided Feedback
 
+## Objective
+Develop an LLM agent–driven pipeline that generates and analyzes RNA sequences, under guidance from human-designed prompts. Each pipeline automatically integrates RNA structural feedback, diffusion-based generative model and internet search.
+
 ## Description 
 * Construction of Tools for non-coding RNA sequence design and analysis:
     * From reconstructed RNA 3D structure
