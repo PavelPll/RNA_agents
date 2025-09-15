@@ -315,7 +315,8 @@ def RNA_2alignment(sequence1, input_dir=input_dir):
     fasta_file = input_dir + "trnaGlycine_Asgard_group_archaeon.fasta"
     sequence2 = read_single_fasta(fasta_file)[1]
 
-    alignments = pairwise2.align.globalxx(sequence2, sequence1)
+    # alignments = pairwise2.align.globalxx(sequence2, sequence1)
+    alignments = pairwise2.align.globalms(sequence2, sequence1, 2, -1, -2, -0.5)
     al_json = alignment_to_json(alignments[0])
     return describe_alignment_for_llm(al_json)
 
