@@ -2,7 +2,7 @@
 LLM Agent–Driven ncRNA Design via Intrinsic Features and Structure-Guided Feedback
 
 ## Description 
-* Construction of Tools for RNA sequence analysis:
+* Construction of Tools for non-coding RNA sequence design and analysis:
     * From reconstructed RNA 3D structure
     * From RNA conditional diffusion model
     * From internet search
