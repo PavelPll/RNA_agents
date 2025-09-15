@@ -9,7 +9,7 @@ LLM Agent–Driven ncRNA Design via Intrinsic Features and Structure-Guided Feed
     * From PubMed abstracts, followed by full-text paper search on the internet
 * Tool-Calling Agent implementation
 * ReAct Agent implementation
-* For a quick presentation of the results and additional implementation details, click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
+* For a quick presentation of preliminary results and click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
 
 ## Getting Started
 
