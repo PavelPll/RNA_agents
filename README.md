@@ -92,15 +92,12 @@ pip install langgraph
 * Install ViennaRNA from [here](https://www.tbi.univie.ac.at/RNA/ViennaRNA/doc/html/install.html)
 
 ### Executing program
-* ####  Large Language Model (LLM) ReAct Agent–Driven RNA Design via Structural Feedback and RNA Diffusion Model
+* ####  Large Language Model (LLM) ReAct Agent–Driven RNA Design via Structural Features and conditional ncRNA Diffusion Model
     ```
    notebooks/RNA_reactAgent.ipynb
     ```
-    * Comparison of two RNAs
-    * Generate two connected RNA hairpins without RNA template
-    * Generate two connected RNA hairpins from a given RNA template
-    * Modification of a specified region of an RNA molecule
-* #### An attempt to model RNA evolution using (LLM) tool agent
+    Possible prompts/queries are summarized in the PDF [presentation](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
+* #### A speculative attempt to model RNA evolution using an LLM-based tool agent
      ```
      notebooks/RNA_toolAgent.ipynb
      ```
