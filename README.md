@@ -96,7 +96,7 @@ pip install langgraph
     ```
    notebooks/RNA_reactAgent.ipynb
     ```
-    Possible prompts/queries are summarized in the PDF [presentation](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
+    Possible prompts/queries are summarized in the [PDF presentation](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf)
 * #### A speculative attempt to model RNA evolution using an LLM-based tool agent
      ```
      notebooks/RNA_toolAgent.ipynb
