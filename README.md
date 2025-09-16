@@ -6,11 +6,11 @@ Develop an LLM agent–driven pipeline that generates and analyzes non coding RN
 
 
 ## Description 
-* Construction of Tools for non-coding RNA sequence design and analysis:
-    * From reconstructed ncRNA 3D structure
-    * From ncRNA conditional diffusion model
-    * From internet search
-    * From PubMed abstracts, followed by full-text paper search on the internet
+* Tool Inputs for non-coding RNA sequence design and analysis:
+    * 3D structural reconstructions
+    * Conditional diffusion model outputs
+    * Web search data
+    * PubMed abstracts, followed by full-text paper search on the internet
 * Tool-Calling Agent implementation
 * ReAct Agent implementation
 * Click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf) for quick presentation of preliminary results 
