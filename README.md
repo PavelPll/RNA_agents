@@ -23,7 +23,7 @@ Develop an LLM agent–driven pipeline that generates and analyzes non coding RN
 * RiboDiffusion model to get FASTA (RNA sequence) from PDB (3D structure) ([paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11211841/), [GitHub](https://github.com/ml4bio/RiboDiffusion))
 * DRfold2 model to get PDB (3D structure) from FASTA (RNA sequence) ([paper](https://www.biorxiv.org/content/10.1101/2025.03.05.641632v1), [GitHub](https://github.com/leeyang/DRfold2.git))
 * [DSSR](http://skmatic.x3dna.org/) to extract RNA properties from its 3D structure (PDB file) [paper](https://academic.oup.com/nar/article/48/13/e74/5842193?login=false)
-* [RNA-FM](https://huggingface.co/multimolecule/rnafm): Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions
+* [RNA-FM](https://huggingface.co/multimolecule/rnafm): Interpretable RNA Foundation Model from Unannotated Data for Highly Accurate RNA Structure and Function Predictions [paper](https://arxiv.org/abs/2204.00300)
 * [RNAcentral DATABASE](https://rnacentral.org) of non-coding RNA (ncRNA) sequences
 * [NIST Chemistry WebBook](https://webbook.nist.gov/chemistry/) to get some physicochemical properties
 * [ViennaRNA](https://www.tbi.univie.ac.at/RNA/ViennaRNA/doc/html) predicting and comparing RNA secondary structures
