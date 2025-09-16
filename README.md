@@ -28,9 +28,10 @@ Develop an LLM agent–driven pipeline that generates and analyzes non coding RN
 * [NIST Chemistry WebBook](https://webbook.nist.gov/chemistry/) to get some physicochemical properties
 * [ViennaRNA](https://www.tbi.univie.ac.at/RNA/ViennaRNA/doc/html) predicting and comparing RNA secondary structures
 * [IUPAC code](https://www.bioinformatics.org/sms/iupac.html) for nucleotides and amino acids
-* Windows 11, Visual Studio Code
 * Docker
 * Torch
+* Ubuntu 22.04, Windows 11
+* Visual Studio Code
 
 ### Installing
 
