@@ -10,7 +10,7 @@ Develop an LLM agent–driven pipeline that generates and analyzes non coding RN
     * 3D structural reconstructions
     * Conditional diffusion model outputs
     * Web search data
-    * PubMed abstracts, followed by full-text paper search on the internet
+    * PubMed abstract retrieval, followed by targeted web searches
 * Tool-Calling Agent implementation
 * ReAct Agent implementation
 * Click [here](https://github.com/PavelPll/RNA_agents/blob/main/docs/rna_agents.pdf) for quick presentation of preliminary results 
