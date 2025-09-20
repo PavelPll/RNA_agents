@@ -122,7 +122,6 @@ pubmed_search_tool = Tool(
 
 # Alternative using Biopython's Bio.Entrez
 from Bio import Entrez
-Entrez.email = 'pp60008@gmail.com'
 #Entrez.email = "your-email@example.com"  # Required per NCBI policy
 # Optional: Entrez.api_key = "YOUR_API_KEY"
 
